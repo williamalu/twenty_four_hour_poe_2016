@@ -1,2 +1,3 @@
 #define LEFT_MOTOR 10
 #define RIGHT_MOTOR 11
+#define SIT_DETECT_IR A0
