@@ -3,10 +3,17 @@ Principles of Engineering project completed in just 24 hours by the course NINJA
 
 # Team Members
 Annabel Consilvio
+
 Trent Dye
+
 [William Lu](https://github.com/williamalu)
+
 [Brenna Manning](https://github.com/brennamanning)
+
 Raagini Rameshwar
+
 Sunny Shroff
+
 Logan Sweet
+
 [Byron Wasti](https://github.com/byronwasti)
