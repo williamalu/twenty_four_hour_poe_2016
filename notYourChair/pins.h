@@ -1,0 +1,2 @@
+#define LEFT_MOTOR 10
+#define RIGHT_MOTOR 11
