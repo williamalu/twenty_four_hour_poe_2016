@@ -17,8 +17,8 @@ void setup() {
 void loop() {
   if (checkSit()) {
     if (prevMotorSpeed == 0) {
-      for (int i; i <= 255; i++) {
-        leftMotorSpeed = i;
+      for (int i; i <= 30; i++) {
+        leftMotorSpeed = i*2;
         rightMotorSpeed = i;
         prevMotorSpeed = i;
         analogWrite(LEFT_MOTOR, leftMotorSpeed);
@@ -26,8 +26,8 @@ void loop() {
       }
     }
     else {
-      for (int i = prevMotorSpeed; i <= 255; i++) {
-        leftMotorSpeed = i;
+      for (int i = prevMotorSpeed; i <= 30; i++) {
+        leftMotorSpeed = i*2;
         rightMotorSpeed = i;
         prevMotorSpeed = i;
         analogWrite(LEFT_MOTOR, leftMotorSpeed);
@@ -46,7 +46,7 @@ void loop() {
 }
 
 bool checkSit() {
-  if (analogRead(SIT_DETECT_IR) > 250) {
+  if (analogRead(SIT_DETECT_IR) > 200) {
     triggerCounter++;
     lastTimeTrigger = millis();
   }
